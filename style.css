@@ -42,10 +42,16 @@ article {
     display: inline-block;
     width: 310px;
     border: 1px solid black;
+    vertical-align: top;
+    height: 350px;
 }
 
 img {
     width:300px;
+}
+
+p {
+    color: rgba(37,142,255,1);
 }
 
 footer {
