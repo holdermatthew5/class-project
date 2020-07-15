@@ -23,9 +23,10 @@ function askName() {
 function askPreference() {
     var preference = prompt('Which episode do you prefer? one, two, or three?')
     var response;
-
+    
+    // possibly a variable before prompt possibly something to reassign that variable the response to the prompt
     while (preference != 'one' && preference != 'two' && preference != 'three') {
-        prompt('Please answer with one, two, or three in all lower case.');
+        var preference = prompt('Please answer with one, two, or three in all lower case.');
     }
 
     if (preference === 'one') {
